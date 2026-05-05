@@ -210,7 +210,7 @@ Incant is inspired by Vagrant, and intended as an Incus-based replacement for Va
 The main differences between Incant and Vagrant are:
 
 * Incant is Free Software (licensed under the Apache 2.0 license). Vagrant is licensed under the non-Open-Source Business Source License.
-* Incant is only a frontend for [Incus](https://linuxcontainers.org/incus/), which supports containers (LXC-based) and virtual machines (KVM-based) on Linux. It will not attempt to be a more generic frontend for other virtualization providers. Thus, Incant only works on Linux.
+* Incant is only a frontend for [Incus](https://linuxcontainers.org/incus/), which supports containers (LXC-based) and virtual machines (KVM-based) on Linux. It will not attempt to be a more generic frontend for other virtualization providers. If you want to use it on macOS, you can do that [via Colima](https://github.com/abiosoft/colima).
 
 Some technical differences are useful to keep in mind when migrating from Vagrant to Incant.
 
